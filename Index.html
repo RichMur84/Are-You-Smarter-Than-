@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel&family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Pop Quiz! Hot Shot!</title>
+  </head>
+  <body>
+    <div class="start-screen">
+      <h1>WELCOME TO THE MOVIES!</h1>
+      <h2>Lets take a quiz</h2>
+      <button id="start-button">Begin</button>
+    </div>
+
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">1 of 5 questions</span>
+        </div>
+        <div class="timer-div">
+          <img src="images/timer.png " alt="timer" width="20px" />
+          <span class="time-left">15s</span>
+        </div>
+      </div>
+      <div id="container"></div>
+      <button id="next-button">Another One!</button>
+    </div>
+    <div class="score-container hide">
+      <div id="user-score">How did you do?</div>
+      <button id="restart">Do it Again!</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
