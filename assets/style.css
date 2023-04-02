@@ -5,7 +5,7 @@
 }
 body {
   background-color: #832828;
-  color: yellow;
+  color: rgb(49, 49, 34);
 }
 .start-screen,
 .score-container {
@@ -23,7 +23,7 @@ body {
 
 .start-screen h1 {
   font-family: Righteous;
-  color: #b7ce38;
+  color: #d4ca37;
   font-size: 100px;
   text-shadow: 2px 5px 10px;
   text-decoration: underline;
@@ -40,10 +40,10 @@ button {
   font-size: 1.3em;
   padding: 0.5em 1.8em;
   border-radius: 0.7em;
-  background-color: #a12e2e;
+  background-color: #a81e1e;
   box-shadow: 2px 2px 8px;
-  color: #180303;
-  text-shadow: 0 1px 0 #5a1c1c;
+  color: #c7bbbb;
+  text-shadow: 0 1px 0 #815757;
 }
 #start-button,
 #restart,
@@ -128,8 +128,8 @@ button {
 #next-button {
   font-size: 1em;
   margin-top: 1.5em;
-  background-color: #a12e2e;
-  color: #345025;
+  background-color: #b35050;
+  color: #76a55c;
   padding: 0.7em 1.8em;
   border-radius: 0.3em;
   float: right;
